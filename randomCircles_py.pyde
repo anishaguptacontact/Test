@@ -1,7 +1,10 @@
+import random
+
+#canvas dimensions
 canvas_width = 1200
 canvas_height = 600
 
-
+#setup circles
 def setup():
     #create a canvas with the specified width and heigth
     size (canvas_width, canvas_height)
